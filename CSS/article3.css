@@ -1,0 +1,132 @@
+body {
+	margin: 40px;
+}
+
+.Web-Name {
+	font-family: "Times New Roma" , serif;
+	text-align: center;
+	font-size: 3.2em;
+	height: 40px;
+}
+
+.Author {
+	font-size: 1.4em;
+}
+
+h1.ArticleTitle {
+	font-size: 1.93em;
+	font-family: Georgia,serif;
+}
+
+hr {
+	height: 3px;
+	background-color: black;
+}
+
+.main-container img {
+	width: 400px;
+	height: auto;
+	text-align: justify;
+}
+
+.main-container h3 {
+	font-family: Georgia, serif;
+	text-align: center;
+}
+
+.main-container section.top {
+	display: flex;
+	gap: 50px;
+}
+
+section.top section {
+	flex: 1;
+	text-align: justify;
+	font-size: 1.4em;
+}
+
+section.top section a {
+	font-size: 1.9em;
+}
+
+section.top img {
+	flex: 1;
+	width: 200px;
+	height: 300px;
+	margin: 20px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+section.mid {
+	text-align: justify;
+	font-size: 1.4em;
+}
+
+.main-container section.bottom {
+	display: flex;
+	gap: 50px;
+}
+
+section.bottom section {
+	flex: 1;
+	font-size: 1.4em;
+	text-align: justify;
+}
+
+section.bottom img {
+	margin: 40px 40px 0px 0px;
+	flex: 1;
+	width: 200px;
+	height: 300px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+/* NAVIGATION CONTENT */
+nav {
+    width: 100%;
+    margin: 0;
+	background-color: white;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 5px 0;
+}
+
+nav ul li {
+    flex: 1;
+	border-radius: 5px;
+    text-align: center;
+	margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3A7D9A;
+    text-decoration: none;
+    color: #F0F0F0;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+nav ul li a:hover {
+    background-color: #2F6B83;
+    color: white; 
+    text-decoration: underline;
+	transform: scale(1.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a:active {
+    background-color: #264D5C;
+    color: white;
+    transform: scale(0.97);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
+}
